@@ -35,4 +35,4 @@ def check_version():
 if __name__ == "__main__":
     zalupa_txt()
     check_version()
-    inject(int(getpid('javaw.exe')[0]), "GishCode-1.12.2-v0.5.0.dll")
+    inject(int(getpid('javaw.exe')[0]), "GishCode-1.12.2-v0.5.0.dll") # enter the name of the process and the dll you want to inject
